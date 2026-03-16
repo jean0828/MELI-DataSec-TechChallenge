@@ -4,7 +4,7 @@ Para la solucion de este punto se debe entender como funciona el calculo de prox
 2. El algoritmo recorre cada celda del tablero (matriz). Si la celda no tiene una mina, revisa sus 8 vecinos inmediatos (arriba, abajo, izquierda, derecha y las 4 diagonales).
 3. Suma cuántas minas hay en ese radio y le asigna ese valor a la celda. Si no hay minas alrededor, la celda toma un valor de "0" (suele representarse como una casilla en blanco).
 
-La solucion esta en el archivo **solution_minesweeper-py**
+La solucion a este reto es el siguiente codigo
 
 ```
 def count_neighbouring_mines(matrix: list) -> list:
@@ -45,3 +45,4 @@ def count_neighbouring_mines(matrix: list) -> list:
                 
     return result
 ```
+La solucion esta en el archivo **solution_minesweeper-py**
