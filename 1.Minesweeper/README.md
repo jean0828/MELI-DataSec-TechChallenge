@@ -1,6 +1,7 @@
 # Task
 **Input**: - A 2D list (matrix) representing a Minesweeper board - Each cell must be either 0
 (empty space) or 1 (mine)
+
 **Output**: - A 2D list (matrix) of the same dimensions as the input - Each cell contains the count
 of neighbouring mines (0-8), or 9 if the cell contains a mine
 
