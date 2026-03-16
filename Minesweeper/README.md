@@ -45,4 +45,4 @@ def count_neighbouring_mines(matrix: list) -> list:
                 
     return result
 ```
-La solucion esta en el archivo **solution_minesweeper-py**
+Del mismo modo, la solucion esta en el archivo **solution_minesweeper-py**
