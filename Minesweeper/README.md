@@ -6,7 +6,7 @@ Para la solucion de este punto se debe entender como funciona el calculo de prox
 
 La solucion esta en el archivo **solution_minesweeper-py**
 
-´´´
+```
 def count_neighbouring_mines(matrix: list) -> list:
     
     """
@@ -44,4 +44,4 @@ def count_neighbouring_mines(matrix: list) -> list:
                 result[i][j] = count
                 
     return result
-´´´
+```
