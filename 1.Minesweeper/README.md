@@ -1,10 +1,12 @@
-Para la solucion de este punto se debe entender como funciona el calculo de proximidad:
+# Task
+**Input**: - A 2D list (matrix) representing a Minesweeper board - Each cell must be either 0
+(empty space) or 1 (mine)
+**Output**: - A 2D list (matrix) of the same dimensions as the input - Each cell contains the count
+of neighbouring mines (0-8), or 9 if the cell contains a mine
 
-1. Una vez que las minas están fijas en sus posiciones, el sistema calcula las "pistas" numéricas.
-2. El algoritmo recorre cada celda del tablero (matriz). Si la celda no tiene una mina, revisa sus 8 vecinos inmediatos (arriba, abajo, izquierda, derecha y las 4 diagonales).
-3. Suma cuántas minas hay en ese radio y le asigna ese valor a la celda. Si no hay minas alrededor, la celda toma un valor de "0" (suele representarse como una casilla en blanco).
 
-La solucion a este reto es el siguiente codigo
+
+Code:
 
 ```
 def count_neighbouring_mines(matrix: list) -> list:
@@ -45,4 +47,4 @@ def count_neighbouring_mines(matrix: list) -> list:
                 
     return result
 ```
-Del mismo modo, la solucion esta en el archivo **solution_minesweeper-py**
+Additionally, the solution to this task is in the file called: **solution_minesweeper-py**
